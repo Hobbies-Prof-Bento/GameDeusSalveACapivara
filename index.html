@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela incial</title>
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+        <script src="js/createjs.js"></script>
+        <script src="data/colisao_arvore.js"></script>
+        <script src="data/colisao_bordas.js"></script>
+        <script src="data/escadas.js"></script>
+        <script src="data/ilha_principal.js"></script>
+</head>
+<body>
+    <div id="container-menu-iniciar">
+        <div class="rei">
+            <img id="fundo-logo" src="img/capivaraemapa.png">
+            <p class="titulo">Deus Salve a<br><span class="gold">CAPIVARA</span></p>
+        </div>
+
+        <footer>
+            <p> <a class="inicio" onclick="init();">Iniciar o jogo</a> </p>
+            <p> <a class="config" href="tutorial.html">Tutorial</a> </p> 
+            <p> <a class="exit"  href="#">Sair</a> </p>
+        </footer>
+    </div>
+    <div id="container-jogo" style="display: none">
+        <canvas id="main-canvas" width="600px" height="600px"></canvas>
+        <div id="container-interface">
+            <div id="top-row">
+                <div id="container-player1">
+                    <p id="player1-name">Jogador 1</p>
+                    <p id="player1-points">Pontos: 0</p>
+                    <div class="container-tecla">
+                        <img id="player1-ataque" class="tecla" src="img/f.png" alt="">
+                        <p id="player1-ataque-cooldown"></p>
+                    </div>
+                </div>
+                <div><p id="timer">5:00</p></div>
+                <div id="container-player2">
+                    <p id="player2-name">Jogador 2</p>
+                    <p id="player2-points">Pontos: 0</p>
+                    <div class="container-tecla row-reverse">
+                        <img id="player2-ataque" class="tecla" src="img/barra.png" alt="">
+                        <p id="player2-ataque-cooldown"></p>
+                    </div>
+                </div>
+            </div>
+            <p id="pFim" style="display: none"><span class="fim">FIM DE JOGO!</span><br><br>
+                <span class="fimsub">O Jogador 1 venceu!</span></p>
+            </div>
+    </div>
+    <audio id="game-sound" src="./midia/music/home.mp3" autoplay loop></audio>
+        
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
