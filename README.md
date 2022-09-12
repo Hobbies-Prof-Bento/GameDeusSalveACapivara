@@ -3,6 +3,10 @@
 ## DESCRICÃO
 #### Jogo desenvolvido na 1ª Maker Game Jam (MGJ) realizada em Curitiba no Espaço Maker Cmaker (http://cmaker.com.br), onde teve-se 48hrs para desenvolver um jogo que envolvesse o tema CAPIVARA.
 
+
+![Screenshot from 2022-09-12 18-49-59](https://user-images.githubusercontent.com/68859813/189765039-1dec2e0f-9940-43d0-bbb9-8a1ec5a49f83.png)
+
+
 O cenário do jogo trata de uma representação do parque Barigui localizado em Curitiba, conhecido por ter capivaras. Em contexto de jogo há um rei capivara que está faminto e pediu para seus servos a coletarem algumas maças prometendo recompensa para a capivara que trouxer mais maças.
 
 
