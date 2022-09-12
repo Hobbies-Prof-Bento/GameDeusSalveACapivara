@@ -1,7 +1,11 @@
 # DEUS SALVE A CAPIVARA (GAME)
 
 ## DESCRICÃO
-#### Jogo desenvolvido na 1ª Maker Game Jam (MGJ) realizada em Curitiba no Espaço Maker Cmaker (http://cmaker.com.br).
+#### Jogo desenvolvido na 1ª Maker Game Jam (MGJ) realizada em Curitiba no Espaço Maker Cmaker (http://cmaker.com.br), onde teve-se 48hrs para desenvolver um jogo que envolvesse o tema CAPIVARA.
+
+O cenário do jogo trata de uma representação do parque Barigui localizado em Curitiba, conhecido por ter capivaras. Em contexto de jogo há um rei capivara que está faminto e pediu para seus servos a coletarem algumas maças prometendo recompensa para a capivara que trouxer mais maças.
+
+
 
 # NOTA: O QUE ESTÁ DESCRITO ABAIXO É APENAS UM MODELO PARA FAZER A DESCRIÇÃO DO REPOSITÓRIO.
 
