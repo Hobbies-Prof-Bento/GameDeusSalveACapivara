@@ -113,8 +113,7 @@ Rastro de odometria obtido após circular pelo ambiente em um prazo de 60 minuto
     <tr>
         <td align="center">Clístenes Grizafis Bento</td>
         <td align="center">Luiz Henrique Pereira Isbaes</td>
-        <td align="center">Bruna Pereira das Neves</td>>
-        <td align="center">Ozeias Mateus Santos Thomaz</td>>
+        <td align="center">Bruna Pereira das Neves</td>
         <td align="center">Leonardo Pestilo dos Santos</td>
         <td align="center">Diego Murilo Sousa da Luz</td>
     </tr>
